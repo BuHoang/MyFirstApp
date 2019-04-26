@@ -3,7 +3,6 @@
 <body>
 
 <h1>My first PHP page</h1>
-
 <?php 
 $sql = "SELECT id, name FROM label";
 $db = parse_url(getenv("DATABASE_URL"));
@@ -24,5 +23,6 @@ foreach ($resultSet as $row) {
 	echo $row['name'] . '\n';
 }
 ?>
+
 </body>
 </html>
