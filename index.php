@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Login</title>
-</head>
 <body>
-<?php
-	$username = $_POST['username'];
-	$password = $_POST['password'];
+
+<h1>My first PHP page</h1>
+
+<?php 
+$sql = "SELECT id, name FROM label";
+$db = parse_url(getenv("DATABASE_URL"));
+$pdo = new PDO("pgsql:" . sprintf(
+    "host=%s;port=%s;user=%s;password=%s;dbname=%s",
+    $db["host"],
+    $db["port"],
+    $db["user"],
+    $db["pass"],
+    ltrim($db["path"], "/")
+));
+$stmt = $pdo->prepare($sql);
+//Thiết lập kiểu dữ liệu trả về
+$stmt->setFetchMode(PDO::FETCH_ASSOC);
+$stmt->execute();
+$resultSet = $stmt->fetchAll();
+foreach ($resultSet as $row) {
+	echo $row['name'] . '\n';
+}
 ?>
-<h1>username: <?=$username?></h1>
-<h1>password: <?=$password?></h1>
 </body>
 </html>
