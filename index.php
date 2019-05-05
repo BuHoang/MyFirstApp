@@ -23,6 +23,5 @@ foreach ($resultSet as $row) {
 	echo $row['name'] . '\n';
 }
 ?>
-
 </body>
 </html>
