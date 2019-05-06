@@ -1,9 +1,9 @@
 <?php 
 class DBconnector{
-    var $servername = "ec2-54-235-208-103.compute-1.amazonaws.com";
-    var $username = "wgmryrdnhvrlir";
-    var $password = "765a1d956955955a9dc08acfd01edff7ba6a802f7776623a0becae1684d5efd0";
-    var $dbname = "d5nmdmne9f0tf1";
+    var $servername = "ec2-50-19-114-27.compute-1.amazonaws.com";
+    var $username = "zbxafommugsiji";
+    var $password = "52e2db1075d40972685033b59adc908729b0eb84afba35fc2b7de9b20d5f96ab";
+    var $dbname = "dg2p13mgriarb";
     var $port = "5432";
     var $conn;
            public function runQuery($sql)
