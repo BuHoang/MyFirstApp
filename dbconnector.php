@@ -8,7 +8,7 @@ class DBconnector{
     var $conn;
            public function runQuery($sql)
            {
-			$conn = pg_connect("host=".$this->servername." port=".$this->port." dbname=".$this->dbname." user=".$this->username." password=".$this->password."") or die("Connection failed: ".pg_last_error());
+      $conn = pg_connect("host=".$this->servername." port=".$this->port." dbname=".$this->dbname." user=".$this->username." password=".$this->password."") or die("Connection failed: ".pg_last_error());
             //chay cau truy van
             $result = pg_query($conn, $sql);
             //doc het cau truy van, tra ve mot mang
@@ -27,3 +27,4 @@ class DBconnector{
             return $result;   
            }
 } ?>
+

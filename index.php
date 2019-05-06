@@ -3,9 +3,13 @@
 <head>
   <title>ATN Company</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
@@ -49,16 +53,16 @@
 
     <div class="col-sm-9">
      &nbsp;
-      <div class="panel panel-primary">
-        <div class="panel-heading">ATN Staff Management</div>
-        <div class="panel-body">     
-          <form action="" method="post" enctype="MULTIPLE/form-data">
+      <div class="panel panel-success">
+        <div class="panel-heading">Staff Management</div>
+        <div class="panel-body" >     
+          <form action="handling.php" method="post" enctype="MULTIPLE/form-data">
             <div class="form-group">
-              <label for="email">Staff name:</label>
+              <label for="email">Name:</label>
               <input type="text" name="name" class="form-control" value="">
             </div>
             <div class="form-group">
-              <label for="pwd">Position:</label>
+              <label for="pwd">Job:</label>
               <td><input type="text" name="job" class="form-control" value=""></td>
             </div>
             <div class="form-group">
@@ -66,7 +70,7 @@
               <td><input type="text" name="address" class="form-control" value=""></td>
             </div>
             <div class="form-group">
-              <label for="pwd">Money received each month:</label>
+              <label for="pwd">Salary:</label>
               <td><input type="text" name="salary" class="form-control" value=""></td>
             </div>
               <input type="submit" class="btn btn-info" name="them" id="them" value="Add">
@@ -75,16 +79,16 @@
       </div>
 
      &nbsp;
-      <div class="panel panel-primary">
-        <div class="panel-heading">Staff Edit</div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Staff Infomation</div>
         <div class="panel-body">     
           <table class="table table-bordered">
             <thead>
               <tr>
-                <th>Staff name</th>
-                <th>Position</th>
+                <th>Name</th>
+                <th>Job</th>
                 <th>Address</th>
-                <th>Money received each month</th>
+                <th>Salary</th>
                 <th>Satus</th>
               </tr>
             </thead>
@@ -92,19 +96,20 @@
                   <?php
                   require_once('./dbconnector.php');
                   $cn = new DBConnector();
-                  $sql="Select * from ATNstaff";
-                  $rows = $cn->runQuery($sql);
+                  $sql="Select * from staff1";
+                  $rows = $cn->runQuery($sql) or die ("");
                   foreach ($rows as $r) {
                   ?>  
               <tr>
-                <td><?=$r['Staffname']?></td>
-                <td><?=$r['Position']?></td>
-                <td><?=$r['Address']?></td>
-                <td><?=$r['Moneyreceivedeachmonth']?></td>
+                <td><?=$r['name']?></td>
+                <td><?=$r['job']?></td>
+                <td><?=$r['address']?></td>
+                <td><?=$r['salary']?></td>
                 <td>
-                  <a href="handling.php?ID=<?=$r['ID']?>" class="delete" title="Delete" data-toggle="tooltip">
-                    <i class="material-icons">&#xE872;</i>
+                  <a href="handling.php?id=<?=$r['id']?>" class="btn btn-success" role="button" >
+                  DELETE
                   </a>
+
                 </td> 
               </tr>
               <?php } ?>
