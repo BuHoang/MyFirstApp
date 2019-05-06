@@ -92,17 +92,17 @@
                   <?php
                   require_once('./dbconnector.php');
                   $cn = new DBConnector();
-                  $sql="Select * from staff";
+                  $sql="Select * from ATNstaff";
                   $rows = $cn->runQuery($sql);
                   foreach ($rows as $r) {
                   ?>  
               <tr>
-                <td><?=$r['name']?></td>
-                <td><?=$r['job']?></td>
-                <td><?=$r['address']?></td>
-                <td><?=$r['salary']?></td>
+                <td><?=$r['Staffname']?></td>
+                <td><?=$r['Position']?></td>
+                <td><?=$r['Address']?></td>
+                <td><?=$r['Moneyreceivedeachmonth']?></td>
                 <td>
-                  <a href="handling.php?id=<?=$r['id']?>" class="delete" title="Delete" data-toggle="tooltip">
+                  <a href="handling.php?ID=<?=$r['ID']?>" class="delete" title="Delete" data-toggle="tooltip">
                     <i class="material-icons">&#xE872;</i>
                   </a>
                 </td> 
