@@ -78,7 +78,7 @@
         </div>
       </div>
 
-     &nbsp;
+     
       <div class="panel panel-danger">
         <div class="panel-heading">Staff Infomation</div>
         <div class="panel-body">     
