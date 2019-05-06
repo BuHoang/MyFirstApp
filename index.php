@@ -50,15 +50,15 @@
     <div class="col-sm-9">
      &nbsp;
       <div class="panel panel-primary">
-        <div class="panel-heading">Staff Edit</div>
+        <div class="panel-heading">ATN Staff Management</div>
         <div class="panel-body">     
           <form action="" method="post" enctype="MULTIPLE/form-data">
             <div class="form-group">
-              <label for="email">Name:</label>
+              <label for="email">Staff name:</label>
               <input type="text" name="name" class="form-control" value="">
             </div>
             <div class="form-group">
-              <label for="pwd">Job:</label>
+              <label for="pwd">Position:</label>
               <td><input type="text" name="job" class="form-control" value=""></td>
             </div>
             <div class="form-group">
@@ -66,7 +66,7 @@
               <td><input type="text" name="address" class="form-control" value=""></td>
             </div>
             <div class="form-group">
-              <label for="pwd">Salary:</label>
+              <label for="pwd">Money received each month:</label>
               <td><input type="text" name="salary" class="form-control" value=""></td>
             </div>
               <input type="submit" class="btn btn-info" name="them" id="them" value="Add">
@@ -81,10 +81,10 @@
           <table class="table table-bordered">
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Job</th>
+                <th>Staff name</th>
+                <th>Position</th>
                 <th>Address</th>
-                <th>Salary</th>
+                <th>Money received each month</th>
                 <th>Satus</th>
               </tr>
             </thead>
