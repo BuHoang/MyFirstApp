@@ -88,7 +88,7 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <img src="img/logo.png" width="100%" height="120px" />
+            <img src="logo.png" width="100%" height="120px" />
         </div>
         <div class="menu">
             <ul>
@@ -122,27 +122,27 @@
                 <p style="text-align: center; color: red; background-color: blue; padding: 10px; margin-top: 0px;">Product</p>
                 <div class="Product">
                     <ul>
-                        <li><a href=""><img src="img/gun1.jpg" width="100" height="100" />
+                        <li><a href=""><img src="gun1.jpg" width="100" height="100" />
                             <p>NERF Elite Infinus Blaster</p>
                             <p style="color: red;">100$</p>
                             <p style="color: red; text-align: center;">Detail</p>
                         </a></li>
-                        <li><a href=""><img src="img/gun2.jpg" width="100" height="100" />
+                        <li><a href=""><img src="gun2.jpg" width="100" height="100" />
                             <p>NERF Elite Infinus Blaster</p>
                             <p style="color: red;">650$</p>
                             <p style="color: red; text-align: center;">Detail</p>
                         </a></li>
-                        <li><a href=""><img src="img/gun3.jpg" width="100" height="100" />
+                        <li><a href=""><img src="gun3.jpg" width="100" height="100" />
                             <p>NERF N-Strike MEGA Mastodon Blaster</p>
                             <p style="color: red;">670$</p>
                             <p style="color: red; text-align: center;">Detail</p>
                         </a></li>
-                        <li><a href=""><img src="img/gun4.jpg" width="100" height="100" />
+                        <li><a href=""><img src="gun4.jpg" width="100" height="100" />
                             <p>NERF N-Strike Elite Delta Trooper Blaster</p>
                             <p style="color: red;">500$</p>
                             <p style="color: red; text-align: center;">Detail</p>
                         </a></li>
-                        <li><a href=""><img src="img/gun5.png" width="100" height="100" />
+                        <li><a href=""><img src="gun5.png" width="100" height="100" />
                             <p>NERF N-Strike Elite Centurion Mega Blaster</p>
                             <p style="color: red;">850$</p>
                             <p style="color: red; text-align: center;">Detail</p>
