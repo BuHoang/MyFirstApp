@@ -57,6 +57,10 @@
         <div class="panel-heading">Staff Management</div>
         <div class="panel-body" >     
           <form action="handling.php" method="post" enctype="MULTIPLE/form-data">
+          	<div class="form-group">
+              <label for="email">id:</label>
+              <input type="text" name="name" class="form-control" value="">
+            </div>
             <div class="form-group">
               <label for="email">Name:</label>
               <input type="text" name="name" class="form-control" value="">
@@ -85,6 +89,7 @@
           <table class="table table-bordered">
             <thead>
               <tr>
+              	<th>id</th>
                 <th>Name</th>
                 <th>Job</th>
                 <th>Address</th>
@@ -101,6 +106,7 @@
                   foreach ($rows as $r) {
                   ?>  
               <tr>
+              	<td><?=$r['id']?></td>
                 <td><?=$r['name']?></td>
                 <td><?=$r['job']?></td>
                 <td><?=$r['address']?></td>
