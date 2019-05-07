@@ -114,7 +114,8 @@
                        <li><a href="">Lego</a></li>
                        <li><a href="">Intex</a></li>
                        <li><a href="">Fisher Price</a></li> 
-                       <li><a href="">NERF</a></li>  
+                       <li><a href="">NERF</a></li>
+                        <li><a href="">Kido</a></li> 
                     </ul>
                 </div>
             </div>
@@ -128,7 +129,7 @@
                             <p style="color: red; text-align: center;">Detail</p>
                         </a></li>
                         <li><a href=""><img src="gun2.jpg" width="100" height="100" />
-                            <p>NERF Elite Infinus Blaster</p>
+                            <p>NERF Elite Hemanic Blaster</p>
                             <p style="color: red;">650$</p>
                             <p style="color: red; text-align: center;">Detail</p>
                         </a></li>
