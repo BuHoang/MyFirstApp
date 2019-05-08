@@ -11,10 +11,9 @@
 			</div>
 			<div id="menu">
 				<ul>
-				<li><a href="home.html" title="HOME PAGE">HOME</a></li>
-				<li><a href="introduce.html" title="INTRODUCE">INTRODUCE</a></li>
-				<li><a href="product.html" title="PRODUCT">PRODUCT</a></li>
-				<li><a href="news.html" title="NEWS">NEWS</a></li>
+				<li><a href="index.php" title="HOME PAGE">HOME</a></li>
+				<li><a href="introduce.php" title="INTRODUCE">INTRODUCE</a></li>
+				<li><a href="product.php" title="PRODUCT">PRODUCT</a></li>
 				<li><a href="contact.html" title="CONTACT">CONTACT</a></li>	
 			</ul>
 			</div>
@@ -28,17 +27,17 @@
 		<div class="introduce col-12">
 			<ul>
 				<li>
-					<img src="./image/news.jpg" width="300px" />
+					<img src="gun4.jpg" width="300px" />
 					<h2>Introduce</h2>
 					ATN SHOP toy kingdom is known as a reputable and quality toy store chain with many shops scattered throughout major cities across Vietnam. And ATN SHOP specializes in providing high quality educational toys and helping to develop creativity. All of the toys that ATN SHOP brings to consumers have a clear brand, origin, through international standards, ensuring high quality and safety. Most of them come from famous brands in many countries around the world such as Lego (Denmark) assembly toys, Siku model cars (Germany), Lalaloopsy (USA), Moxie Girlz Doll. With more than 1,000 types of items for adolescents of all ages, parents are eager to choose for their children very useful, impressive and beautiful toys without having to care about the substance quantity or price
 				</li>
 				<li>
-					<img src="./image/news.jpg"  width="300px" />
+					<img src="gun4.jpg"  width="300px" />
 					<h2>Introduce</h2>
 					ATN SHOP toy kingdom is known as a reputable and quality toy store chain with many shops scattered throughout major cities across Vietnam. And ATN SHOP specializes in providing high quality educational toys and helping to develop creativity. All of the toys that ATN SHOP brings to consumers have a clear brand, origin, through international standards, ensuring high quality and safety. Most of them come from famous brands in many countries around the world such as Lego (Denmark) assembly toys, Siku model cars (Germany), Lalaloopsy (USA), Moxie Girlz Doll. With more than 1,000 types of items for adolescents of all ages, parents are eager to choose for their children very useful, impressive and beautiful toys without having to care about the substance quantity or price
 				</li>
 				<li>
-					<img src="./image/news.jpg"  width="300px" />
+					<img src="gun4.jpg"  width="300px" />
 					<h2>Introduce</h2>
 					ATN SHOP toy kingdom is known as a reputable and quality toy store chain with many shops scattered throughout major cities across Vietnam. And ATN SHOP specializes in providing high quality educational toys and helping to develop creativity. All of the toys that ATN SHOP brings to consumers have a clear brand, origin, through international standards, ensuring high quality and safety. Most of them come from famous brands in many countries around the world such as Lego (Denmark) assembly toys, Siku model cars (Germany), Lalaloopsy (USA), Moxie Girlz Doll. With more than 1,000 types of items for adolescents of all ages, parents are eager to choose for their children very useful, impressive and beautiful toys without having to care about the substance quantity or price
 				</li>

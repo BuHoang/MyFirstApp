@@ -11,10 +11,9 @@
 			</div>
 			<div id="menu">
 				<ul>
-				<li><a href="home.html" title="HOME PAGE">HOME</a></li>
-				<li><a href="introduce.html" title="INTRODUCE">INTRODUCE</a></li>
-				<li><a href="product.html" title="PRODUCT">PRODUCT</a></li>
-				<li><a href="news.html" title="NEWS">NEWS</a></li>
+				<li><a href="index.php" title="HOME PAGE">HOME</a></li>
+				<li><a href="introduce.php" title="INTRODUCE">INTRODUCE</a></li>
+				<li><a href="product.php" title="PRODUCT">PRODUCT</a></li>
 				<li><a href="contact.html" title="CONTACT">CONTACT</a></li>	
 			</ul>
 			</div>

@@ -14,8 +14,7 @@
 				<li><a href="index.php" title="HOME PAGE">HOME</a></li>
 				<li><a href="introduce.php" title="INTRODUCE">INTRODUCE</a></li>
 				<li><a href="product.php" title="PRODUCT">PRODUCT</a></li>
-				<li><a href="news.php" title="NEWS">NEWS</a></li>
-				<li><a href="contact.php" title="CONTACT">CONTACT</a></li>	
+				<li><a href="contact.html" title="CONTACT">CONTACT</a></li>	
 			</ul>
 			</div>
 			<div id="help">
