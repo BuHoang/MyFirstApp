@@ -7,11 +7,11 @@
 <body>
 	<div id="menu_top">
 			<div id="ATN">
-				<a href="home.php" title="HOME PAGE">ATN shop</a>
+				<a href="index.php" title="HOME PAGE">ATN Toy shop</a>
 			</div>
 			<div id="menu">
 				<ul>
-				<li><a href="home.php" title="HOME PAGE">HOME</a></li>
+				<li><a href="index.php" title="HOME PAGE">HOME</a></li>
 				<li><a href="introduce.php" title="INTRODUCE">INTRODUCE</a></li>
 				<li><a href="product.php" title="PRODUCT">PRODUCT</a></li>
 				<li><a href="contact.html" title="CONTACT">CONTACT</a></li>	
@@ -27,11 +27,11 @@
 		<div id="product">
 			<div class="category col-3">
 				<ul>
-					<li><a href="product.php" title="PRODUCT">DO CHOI BAO LUC</a></li>
-					<li><a href="product.php" title="PRODUCT">DO CHOI TRI TUE</a></li>
-					<li><a href="product.php" title="PRODUCT">PHUONG TIEN GIAO THONG</a></li>
-					<li><a href="product.php" title="PRODUCT">PHU KIEN</a></li>
-					<li><a href="product.php" title="PRODUCT">NHAN VAT/CHU DE</a></li>
+					<li><a href="product.php" title="PRODUCT">VIOLENT TOY</a></li>
+					<li><a href="product.php" title="PRODUCT">SMART TOY</a></li>
+					<li><a href="product.php" title="PRODUCT">ADULT TOY</a></li>
+					<li><a href="product.php" title="PRODUCT">ANIMAL TOY</a></li>
+					<li><a href="product.php" title="PRODUCT">LEGO TOY</a></li>
 					
 				</ul>
 			</div>

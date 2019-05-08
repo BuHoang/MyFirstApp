@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ATN shop</title>
+		<title>ATN Toy shop</title>
 		<link rel="stylesheet" type="text/css" href="home.css">
 	</head>
 	<body>
 		<div id="menu_top">
-			<div id="ATN">
-				<a href="index.php" title="HOME PAGE">ATN shop</a>
+			<div id="Toy's">
+				<a href="index.php" title="HOME PAGE">ATN Toy shop</a>
 			</div>
 			<div id="menu">
 				<ul>
@@ -22,15 +22,15 @@
 			</div>
 		</div>
 		<div id="banner">
-			<img src="logo.png" alt="DO CHOI" width="1000px" />
+			<img src="logo.png" alt="TOY" width="1000px" />
 		</div>
 		<div id="main">
 		          
-			<div id="DO CHOI">
+			<div id="TOY">
 
 				<?php
 		include 'dbconnector.php';
-		            $sql = "SELECT productid, image,  productname FROM product";
+		            $sql = "SELECT productid, image,  productname FROM product1";
 		            $result = pg_query($connection,$sql);
 		            if (pg_num_rows($result) > 0) {
 		            // output data of each row

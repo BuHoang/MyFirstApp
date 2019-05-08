@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DO CHOI detail</title>
+	<title>Toy detail</title>
 	<link rel="stylesheet" type="text/css" href="home.css">
 </head>
 <body>
 		<div id="menu_top">
 			<div id="ATN">
-				<a href="index.php" title="HOME PAGE">ATN shop</a>
+				<a href="index.php" title="HOME PAGE">ATN Toy shop</a>
 			</div>
 			<div id="menu">
 				<ul>
@@ -28,7 +28,7 @@
 <?php
 		include 'dbconnector.php';
 		$productid =$_GET['productid'];
-		            $sql = "SELECT productid, image, price, productname FROM product  WHERE productid = '$productid'";
+		            $sql = "SELECT productid, image, price, productname FROM product1  WHERE productid = '$productid'";
 		            $result = pg_query($connection,$sql);
 		            if (pg_num_rows($result) > 0) {
 		            // output data of each row

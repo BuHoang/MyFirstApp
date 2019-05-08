@@ -7,7 +7,7 @@
 <body>
 	<div id="menu_top">
 			<div id="ATN">
-				<a href="index.php" title="HOME PAGE">ATN shop</a>
+				<a href="index.php" title="HOME PAGE">ATN Toy shop</a>
 			</div>
 			<div id="menu">
 				<ul>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ATN shop</title>
+		<title>ATN Toy shop</title>
 		<link rel="stylesheet" type="text/css" href="home.css">
 	</head>
 	<body>
 		<div id="menu_top">
 			<div id="ATN">
-				<a href="index.php" title="HOME PAGE">ATN shop</a>
+				<a href="index.php" title="HOME PAGE">ATN Toy shop</a>
 			</div>
 			<div id="menu">
 				<ul>
