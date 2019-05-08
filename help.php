@@ -32,7 +32,7 @@
 			<div class="col-12"><h3>Step 2: choose your wanted total and color and click BUY button to buy</h3></div>
 			<div class="col-12"><img src="image/detail.png"></div>
 			<div class="col-12"><h3>Step 3: enter full requirement informations and click on CONFIRM button to finish</h3></div>
-			<div class="col-12"><img src="image/buy.png"></div>
+			<div class="col-12"><img src="buy.png"></div>
 
 		</div>
 		<div id="footer">
