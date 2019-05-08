@@ -38,19 +38,19 @@
 			<div class="PofC col-9">
 				<div class="col-6">
 					<a href="detail.php"><img src="gun1.jpg" width="220px" /></a>
-					<h3>do choi 1</h3>
+					<h3>Toy 1</h3>
 				</div>
 				<div class="col-6">
 					<a href="detail.php"><img src="gun2.jpg" width="220px" /></a>
-					<h3>do choi 1</h3>
+					<h3>Toy 2</h3>
 				</div>
 				<div class="col-6">
 					<a href="detail.php"><img src="gun3.jpg" width="220px" /></a>
-					<h3>do choi 1</h3>
+					<h3>Toy 3</h3>
 				</div>
 				<div class="col-6">
 					<a href="detail.php"><img src="gun4.jpg" width="220px" /></a>
-					<h3>do choi 1</h3>
+					<h3>Toy 4</h3>
 				</div>
 			</div>
 		</div>

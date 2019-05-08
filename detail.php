@@ -41,7 +41,7 @@
 		          ?>
 			
 
-			<h1>Do choi 1</h1>
+			<h1>Toy</h1>
 				<div class="detailIMG col-5">
 					<img src="<?= $image; ?>" width="300px" height="400px" />
 				</div>
