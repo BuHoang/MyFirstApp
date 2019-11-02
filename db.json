@@ -1,0 +1,69 @@
+{
+  "user": [
+    {
+      "Firstname": "john",
+      "Lastname": "Humb",
+      "Gender": "male",
+      "Telephone": "098675778",
+      "Email": "john@gmail.com",
+      "Place": "Europe",
+      "Hobbies": "Cooking",
+      "Description": "One thing to note is you should make sure not to define the background color of a table cell in your stylesheet"
+    },
+    {
+      "Firstname": "bui",
+      "Lastname": "Hoang",
+      "Gender": "male",
+      "Telephone": "0962379888",
+      "Email": "hoang1835@gmail.com",
+      "Place": "Europe",
+      "Hobbies": "Swimming",
+      "Description": "handsome boy",
+      "id": "7k82Ti5"
+    },
+    {
+      "Firstname": "nguyen",
+      "Lastname": "hoang",
+      "Gender": "male",
+      "Telephone": "0912345678",
+      "Email": "hoang1835@gmail.com",
+      "Place": "Asia",
+      "Hobbies": "Cooking",
+      "Description": "I am God",
+      "id": "esvV-1j"
+    },
+    {
+      "Firstname": "Bui",
+      "Lastname": "Hoang",
+      "Gender": "male",
+      "Telephone": "1234567899",
+      "Email": "goddragon703@gmail.com",
+      "Place": "American",
+      "Hobbies": "Sport",
+      "Description": "I am director",
+      "id": "RPYF5ew"
+    },
+    {
+      "Firstname": "Bui",
+      "Lastname": "Hoang",
+      "Gender": "male",
+      "Telephone": "1234567899",
+      "Email": "goddragon703@gmail.com",
+      "Place": "American",
+      "Hobbies": "Sport",
+      "Description": "I am director",
+      "id": "fSqHIJe"
+    },
+    {
+      "Firstname": "bui",
+      "Lastname": "lan",
+      "Gender": "female",
+      "Telephone": "0988234567",
+      "Email": "Lan123@gmail.com",
+      "Place": "Australia",
+      "Hobbies": "Sing",
+      "Description": "adfadfda",
+      "id": "JuLdp3x"
+    }
+  ]
+}
